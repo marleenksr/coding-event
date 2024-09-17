@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for dashboard system to communicate with ocpp emulator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "websocket",
+    "charging",
+    "ocpp"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5",
+    "ws": "^8.18.0"
+  }
+}
