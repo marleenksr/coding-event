@@ -1,12 +1,12 @@
 # Coding Event Setup Guide
 
-Welcome to this coding event by Womxn@Monta x Girls in IT! To get you up and running smoothly, we've prepared a
+Welcome to the coding event by Womxn@Monta x Girls in IT! To get you up and running smoothly, we've prepared a
 step-by-step guide on how to set up your programming environment. If you're new to programming or the tools we'll be
 using, don't worry! Just follow the instructions below, and you'll be set up in no time.
 
 ## Cloning the Workshop Repository
 
-First, we need to get the workshop materials onto your computer by cloning our code repository.
+First, we need to get the event materials onto your computer by cloning this code repository.
 
 ### What you need:
 
@@ -36,16 +36,19 @@ First, we need to get the workshop materials onto your computer by cloning our c
 
 ## Backend Setup
 
-1. Navigate to the backend directory.
+1. In a terminal window, navigate to the backend directory using `cd backend` if you're already in the root directory of
+   the repository or `cd /Users/yourusername/Documents/coding/coding-event/backend/` if you're not.
 2. Run `npm install` to install dependencies.
 3. Start the backend with `node app.js`.
 
 ## Frontend Setup
 
-1. Navigate to the frontend directory.
-2. Run `npm install` to install dependencies.
-3. Start the React app with `npm start`.
-4. Open a web browser and go to `http://localhost:3000` to view the frontend interface.
+1. Open a new terminal window - we need two terminal windows open to run the backend and frontend simultaneously.
+2. Navigate to the frontend directory with `cd frontend` if you're already in the root directory of the repository or
+   `cd /Users/yourusername/Documents/coding/coding-event/frontend/` if you're not.
+3. Run `npm install` to install dependencies.
+4. Start the React app with `npm start`.
+5. Open a web browser and go to `http://localhost:3000` to view the frontend interface.
 
 ## Ready to Start!
 

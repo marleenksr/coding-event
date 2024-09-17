@@ -39,7 +39,7 @@ function Dashboard() {
                 padding: '20px',
                 margin: '10px',
                 width: '200px',
-                backgroundColor: station.status === 'charging' ? 'green' : station.status === 'idle' ? 'yellow' : 'red',
+                backgroundColor: station.status === 'charging' ? 'green' : station.status === 'idle' ? 'orange' : 'red',
                 color: 'white'
               }}>
                 <h2>Station {station.stationId}</h2>
